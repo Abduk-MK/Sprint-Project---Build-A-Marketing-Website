@@ -1,0 +1,182 @@
+
+
+
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+/*HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+
+
+/* Default CSS */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  font-family: sans-serif;
+  color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: sans-serif;
+  color: black;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;  
+}
+
+.attraction-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fdeaea;
+    justify-content: center;
+    padding: 72px;
+}
+
+.attraction-images .images{
+    width: 25%;
+    margin: 20px 2.5%;
+    height: 100%;
+}
+
+.attraction-images h3, h2 {
+    color: black;
+    text-align: center;
+}
+
+.attraction-images .images img {
+      width: 100%;
+      margin: 20px 2.5%;
+      border-radius: 20px;
+      height: 100%;
+}
+
+
+.visit-africa {
+    margin-top: 60px;
+    padding: 50px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.visit-africa .visit-text {
+    width: 50%;
+}
+
+.visit-africa .visit-text h3 {
+    margin-bottom: 10px;
+  }
+
+.visit-africa .visit-form {
+    width: 46%;
+      margin-left: 4%;
+}
+.visit-form {
+  padding: 2px;
+  
+}
+.visit-form h3 {
+  font-size: 20px;
+}
+.topnav nav {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: #1b1919;
+  font-size: 14px;
+  padding: 50px 30px 50px 80px;
+
+}
+.topnav {
+  display: block;
+  color: antiquewhite;
+}
+.topnav nav a:first-child {
+  font-size: 20px;
+  margin-left: 0;
+}
+.intro img {
+  width: 100%;
+}
+.btn {
+  margin: 40px 50px;
+  background-color: orange;
+  display: flex;
+  border-radius: 30px;
+  color: rgb(36, 3, 3);
+  
+}
+
+footer {
+  border: solid 2px black;
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+}
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) {
+  body {
+    background: white;
+  }
+}
